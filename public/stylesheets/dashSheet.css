@@ -1,0 +1,165 @@
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/* NAVBAR */
+.navbar {
+  background-color: #212529;
+  color: rgb(205, 52, 71);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: 0.4s;
+  z-index: 500;
+}
+
+/* Brand */
+.navbar-brand {
+ font-size: 20px;
+  color: rgb(205, 52, 71)!important;
+}
+
+/* Changes color when hovering brand */
+.navbar-brand:hover {
+ 
+  color: rgb(198, 199, 200)!important;
+  
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: rgb(205, 52, 71);
+}
+
+/* Brand color */
+#mainNav .navbar-brand {
+  color: rgb(205, 52, 71);
+}
+
+/* Nav color */
+.nav-link {
+  color: rgb(205, 52, 71)!important;
+}
+
+/* Nav link hover color */
+.nav-link:hover {
+  color: rgb(198, 199, 200)!important;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  /* REMOVES DOTS FORM LIST */
+  list-style: none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgb(205, 52, 71);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+@media (max-width: 450px) {
+  #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item {
+    font-size: 22px;
+  }
+}
+/* END NAV */
+
+
+
+/* Member and group ID */
+#member-id{
+  display: none;
+}
+#group-id{
+  display: none;
+}
+
+#displayGroup {
+  display: none;
+}
+
+/* Group Icons */
+.groupIcons
+{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Service Icons */
+.serviceIcons {
+  height: 54px;
+  width: 54px;
+  margin: 10px;
+  transition: all .2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.serviceIcons:hover {
+  transform: scale(1.1);
+}
+
+/* Link Icons */
+.linkIcons
+{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  transition: all .2s ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.linkIcons:hover {
+  transform: scale(1.1);
+}
+/* Section headings positioning */
+.section-headingAbout {
+  margin-top: 10px;
+}
+
+
+/* Table */
+.tableButton {
+  margin: 5px 0;
+}
+.table-responsive-sm {
+  /* border: 5px solid #212529; */
+  
+}
+
+.table th,td {
+  text-align: center;   
+}
+
+/* Buttons */
+/* Create Group */
+#createGroupBTN {
+  /* margin-right: auto; */
+}
+
+/* Add Service */
+
+#AddServiceBTN{
+  /* width: 100%;
+  margin-top: 10px; */
+}
+
+h2 {
+  font-size: 25px;   
+}
+
